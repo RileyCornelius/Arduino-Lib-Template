@@ -1,0 +1,26 @@
+{
+    "name": "MyLib",
+    "version": "0.0.1",
+    "description": "",
+    "keywords": "",
+    "license": "MIT",
+    "frameworks": "arduino",
+    "platforms": "*",
+    "examples": "examples/*/*.ino",
+    "author": {
+        "name": "",
+        "email": ""
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "export": {
+        "exclude": [
+            "test",
+            "platformio.ini",
+            ".gitignore",
+            ".github"
+        ]
+    }
+}
